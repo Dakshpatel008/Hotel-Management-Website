@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hotel Modern</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <link rel = "icon" href = "images/logo.png" type = "image/png">
+    </head>
+    <body>
+        
+        
+        <header class="header" id="header">
+            <div class="head-top">
+                <div class="site-name">
+                    <span>Daksh Patel</span>
+                </div>
+                <div class="site-nav">
+                    <span id="nav-btn">MENU <i class="fas fa-bars"></i></span>
+                </div>
+            </div>
+
+            <div class="head-bottom flex">
+                <h2>Hotel Modern</h2>
+                <h2>NICE AND COMFORTABLE PLACE TO STAY</h2>
+                <p>Leadership is creating an environment in which people want to be part of the organization and not just work for the organization. Leadership creates an environment that makes people want to, rather than have to, do.</p>
+                <button type="button" class="head-btn">GET STARTED</button>
+            </div>
+        </header>
+
+        
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "#header">home</a></li>
+                <li><a href = "#services">services</a></li>
+                <li><a href = "#rooms">rooms</a></li>
+                <li><a href = "#customers">customers</a></li>
+            </ul>
+            <button class = "btn sign-up">sign up</button>
+            <button class = "btn log-in">log in</button>
+        </div>
+        
+
+        <div id = "modal"></div>
+
+        
+        <section class = "services sec-width" id = "services">
+            <div class = "title">
+                <h2>services</h2>
+            </div>
+            <div class = "services-container">
+                
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-utensils"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Food Service/ Food Runner</h2>
+                        <p>A man who goes into a restaurant and blatantly disrespects the servers shows a strong discontent with his own being. Deep down he knows that restaurant service is the closest thing he will ever experience to being served like a king.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-swimming-pool"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Refreshment</h2>
+                        <p>A lonely day is God's way of saying that he wants to spend some quality time with you.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                
+            
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-broom"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Housekeeping</h2>
+                        <p></p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+               
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-door-closed"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Room Security</h2>
+                        <p>The good we secure for ourselves is precarious and uncertain until it is secured for all of us and incorporated into our common life.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                
+            </div>
+        </section>
+
+        <div class = "book">
+            <form class = "book-form">
+                <div class = "form-item">
+                    <label for = "checkin-date">Check In Date: </label>
+                    <input type = "date" id = "chekin-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "checkout-date">Check Out Date: </label>
+                    <input type = "date" id = "chekout-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "adult">Adults: </label>
+                    <input type = "number" min = "1" value = "1" id = "adult">
+                </div>
+                <div class = "form-item">
+                    <label for = "children">Children: </label>
+                    <input type = "number" min = "1" value = "1" id = "children">
+                </div>
+                <div class = "form-item">
+                    <label for = "rooms">Rooms: </label>
+                    <input type = "number" min = "1" value = "1" id = "rooms">
+                </div>
+                <div class = "form-item">
+                    <input type = "submit" class = "btn" value = "Book Now">
+                </div>
+            </form>
+        </div>
+
+        <section class = "rooms sec-width" id = "rooms">
+            <div class = "title">
+                <h2>rooms</h2>
+            </div>
+            <div class = "rooms-container">
+               
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/img1.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Luxury Rooms</h3>
+                       
+                        <p>The first bedroom here, designed by Mauritz Snyman, uses soft and soothing grays and silvers to create a sparkling, luxurious feel. From a modern chandelier that dangles over the bed to a plush silvery gray carpet that practically begs for your bare feet, waking up in this bedroom would be like waking up inside a warm storm cloud.</p>
+                        <p>While having more money might seem like a one way ticket to all the happiness you could handle, it doesn’t hurt to bring in some cheerful colors, too. This sharp sunny bedroom has plenty of that with splashes of citrus and lots of light.</p>
+                        <p class = "rate">
+                            <span>$99.00 /</span> Per Night
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+                
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/img2.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Luxury Rooms</h3>
+                        <p>Of course, sometimes a stripped down design is what luxury is all about. This sleek and minimalist bedroom still speaks to luxury but it does so in a whisper. From simple white gauze curtains to a long and low bed there is nothing here that isnt necessary. Except maybe the chandelier.</p>
+                        <p class = "rate">
+                            <span>$99.00 /</span> Per Night
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+               
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/img3.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Luxury Rooms</h3>
+                        
+                        <p>On the other end of the spectrum is this simple bedroom that celebrates luxury in an entirely different way. With dark wood accents and a carefully organized storage system, this bedroom is what modern luxury is all about.</p>
+                        <p>The luxury features dont stop in this bedroom. Mounting the elevated bed platform is like climbing into a throne while an elegant, ornate vanity is also fit for royalty. The huge private bath is the only way to soak away a long day of luxury living.</p>
+                        <p class = "rate">
+                            <span>$99.00 /</span> Per Night
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+               
+            </div>
+        </section>
+
+
+        <section class = "customers" id = "customers">
+            <div class = "sec-width">
+                <div class = "title">
+                    <h2>customers</h2>
+                </div>
+                <div class = "customers-container">
+                   
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>We Loved it</h3>
+                        <p>The staff were amazing. I somehow lost my immigration card between the airport and the hotel. The staff helped me resolve this matter which took hours over a number of dsys of visiting police and government offices. Ilya P in particular went way above and beyond to help me out and was an absolute gentleman to deal with. I can't praise the staff of penta hotel enough. They are what makes penta special relative to all the other hotels in Moscow (most of which I have stayed at)
+                            Besides the staff the food was great. We had multiple meals at the bar. All were really good. The atmosphere in the bar was consistently nice.</p>
+                        <img src = "images/cus1.jpg" alt = "customer image">
+                        <span>Andrew, Moscow</span>
+                    </div>
+                   
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Comfortable Living</h3>
+                        <p>Wonderful place to stay. I dont normally stay in hotels but this was perfect – the beds are comfortable, and the rooms are quiet despite the fact that if you want to, you can spend time outside with other travelers and the staff.I had a great time meeting everyone and socializing yet when I wanted to, I could get a quiet night’s sleep.</p>
+                        <img src = "images/cus2.jpg" alt = "customer image">
+                        <span>Sersei, Olympia</span>
+                    </div>
+                    
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Nice Place</h3>
+                        <p> stayed at [Hotel Modern] for three nights in November 2019. What an amazing hotel. I was greeted with such kindness and this continued throughout my stay. I booked the king room and my room was situated on the 14th floor. The room was fantastic. Clean, modern, and had a fantastic view over MOSCOW. The rooms were big for  standards. I can’t complain about this hotel. The gym was great, the rooftop bar was fantastic, and all of the facilities were clean and modern. The restaurant located inside the hotel. Food was delicious. I dined here for breakfast and dinner.</p>
+                        <img src = "images/cus3.jpg" alt = "customer image">
+                        <span>Ikaris, Australia</span>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        <footer class = "footer">
+            <div class = "footer-container">
+                <div>
+                    <h2>About Us </h2>
+                    <p>At Modern Hotels, our core values are the principles that guide, motivate and inspire us as we bring our mission to life.  These core values describe how we do what we do and they are the very essence of Modern Hotels. We are committed to provide a 360 degree integrated hotel management service that creates exceptional value. Our people embody the Niccolo & GP Spirit to explore, discover, experience and journey beyond.</p>
+                    <ul class = "social-icons">
+                        <li class = "flex">
+                            <i class = "fa fa-twitter fa-2x"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-facebook fa-2x"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-instagram fa-2x"></i>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>Useful Links</h2>
+                    <a href = "#">Blog</a>
+                    <a href = "#">Rooms</a>
+                    <a href = "#">Subscription</a>
+                    <a href = "#">Gift Card</a>
+                </div>
+
+                <div>
+                    <h2>Privacy</h2>
+                    <a href = "#">Career</a>
+                    <a href = "#">About Us</a>
+                    <a href = "#">Contact Us</a>
+                    <a href = "#">Services</a>
+                </div>
+
+                <div>
+                    <h2>Have A Question</h2>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                            203 Fake St.Mountain View, San Francisco, California, USA
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                            +1 (783)961-5669
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            info@domain.com
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+       
+        
+        <script src="script.js"></script>
+    </body>
+</html>
